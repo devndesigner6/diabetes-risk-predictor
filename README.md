@@ -1,5 +1,5 @@
 # Diabetes Prediction Web Application
-*A complete machine learning project with web deployment*  
+*A complete machine learning project ready for deployment*  
 **Author: Hemanth Peddada**  
 **Date: July 2025**
 
@@ -7,11 +7,11 @@
 This is my comprehensive implementation of an end-to-end machine learning solution for predicting diabetes risk. I built this project to demonstrate skills in data science, machine learning, and web development. The application uses the Pima Indians Diabetes Dataset to provide diabetes risk assessments through a web interface.
 
 ## 🚀 Quick Start
-To run the application locally:
-1. Start the Flask application (see Running the Application section below)
-2. Open your browser and go to: http://localhost:5000
-3. Enter health information in the form
-4. Click "Predict Risk" to get results
+To run the application:
+1. Clone the repository
+2. Install dependencies: `pip install -r deployment/requirements.txt`
+3. Run the application: `python webapp/app.py`
+4. Access the web interface to make predictions
 
 ## 📊 Project Highlights
 - **Machine Learning Model**: Diabetes risk prediction algorithm
@@ -53,13 +53,17 @@ To run the application locally:
 
 ## 💻 Running the Application
 
-### Method 1: Direct Python Execution
+### Prerequisites
+```bash
+pip install -r deployment/requirements.txt
+```
+
+### Local Development
 ```bash
 python webapp/app.py
 ```
-Then open: http://localhost:5000
 
-### Method 2: VS Code Task
+### VS Code Task (Optional)
 - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac)
 - Type "Tasks: Run Task"
 - Select "Run Diabetes Prediction App"
@@ -109,12 +113,13 @@ Then open: http://localhost:5000
 - **Output**: Binary classification (diabetic/non-diabetic) + probability scores
 - **Validation**: Input range checking and error handling
 
-## 🚀 Development Status
+## 🚀 Project Status
 
-1. **Local Development**: Run application locally using the instructions above
-2. **Testing**: Test all features and API endpoints
-3. **Code Review**: Review and optimize implementation
-4. **Documentation**: Complete project documentation
+This project is **ready for deployment** and includes:
+1. **Complete Flask Application** - Fully functional web interface
+2. **Deployment Configuration** - Ready for cloud platforms
+3. **Production Dependencies** - All requirements specified
+4. **API Documentation** - Complete endpoint specifications
 
 ## 🏆 Project Features
 - ✅ **Complete ML Pipeline**
@@ -123,7 +128,7 @@ Then open: http://localhost:5000
 - ✅ **Data Processing**
 - ✅ **Project Documentation**
 - ✅ **Responsive Design**
-- ✅ **Input Validation**
+- ✅ **Deployment Ready**
 
 ---
 
